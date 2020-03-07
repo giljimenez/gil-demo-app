@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2BD96C912408E00C007BC551 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2BD96C902408E00C007BC551 /* GoogleService-Info.plist */; };
+		2B9406A424143AA000BE7E87 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2B9406A324143AA000BE7E87 /* GoogleService-Info.plist */; };
 		2BFF0B5623F662AC00B89026 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFF0B5523F662AC00B89026 /* AppDelegate.swift */; };
 		2BFF0B5823F662AC00B89026 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFF0B5723F662AC00B89026 /* SceneDelegate.swift */; };
 		2BFF0B5A23F662AC00B89026 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFF0B5923F662AC00B89026 /* AccountViewController.swift */; };
@@ -22,7 +22,7 @@
 /* Begin PBXFileReference section */
 		068F22818E8931CB6528DE74 /* Pods_gil_demo_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gil_demo_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F39012C63E7C16E5BD6D4DA /* Pods-gil-demo-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gil-demo-app.release.xcconfig"; path = "Target Support Files/Pods-gil-demo-app/Pods-gil-demo-app.release.xcconfig"; sourceTree = "<group>"; };
-		2BD96C902408E00C007BC551 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2B9406A324143AA000BE7E87 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2BFF0B5223F662AC00B89026 /* gil-demo-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "gil-demo-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BFF0B5523F662AC00B89026 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2BFF0B5723F662AC00B89026 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,7 +86,7 @@
 				2BFF0B6023F662AD00B89026 /* Assets.xcassets */,
 				2BFF0B6223F662AD00B89026 /* LaunchScreen.storyboard */,
 				2BFF0B6523F662AD00B89026 /* Info.plist */,
-				2BD96C902408E00C007BC551 /* GoogleService-Info.plist */,
+				2B9406A324143AA000BE7E87 /* GoogleService-Info.plist */,
 			);
 			path = "gil-demo-app";
 			sourceTree = "<group>";
@@ -113,6 +113,7 @@
 				2BFF0B5023F662AC00B89026 /* Resources */,
 				D8DD9F902699AC1720D8F330 /* [CP] Embed Pods Frameworks */,
 				2BD96C922408EA2D007BC551 /* ShellScript */,
+				2A1ECB684917B741ABA794A1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -162,7 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BFF0B6423F662AD00B89026 /* LaunchScreen.storyboard in Resources */,
-				2BD96C912408E00C007BC551 /* GoogleService-Info.plist in Resources */,
+				2B9406A424143AA000BE7E87 /* GoogleService-Info.plist in Resources */,
 				2BFF0B6123F662AD00B89026 /* Assets.xcassets in Resources */,
 				2BFF0B5F23F662AC00B89026 /* Main.storyboard in Resources */,
 			);
@@ -171,6 +172,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2A1ECB684917B741ABA794A1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-gil-demo-app/Pods-gil-demo-app-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-gil-demo-app/Pods-gil-demo-app-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-gil-demo-app/Pods-gil-demo-app-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		2BD96C922408EA2D007BC551 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
